@@ -12,7 +12,7 @@ function MainHeader() {
                     </Link>
                     <nav className="header_containerContentLeft_linksContainer">
                         <Link to="/blog" className="header_containerContentLeft_linksContainer_link">Blog</Link>
-                        <Link to="/contact" className="header_containerContentLeft_linksContainer_link">Sobre Nosotros</Link>
+                        <Link to="/about" className="header_containerContentLeft_linksContainer_link">Sobre Nosotros</Link>
                         <Link to="/faq" className="header_containerContentLeft_linksContainer_link">Preguntas Frecuentes</Link>
                     </nav>
                 </div>

@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    flex: 1;
 }
 
 .homepage_container>div {
@@ -79,6 +77,23 @@
 
 .homepage_firstSectionContainer_left_introductionContainer_linkSpan:hover {
     color: var(--tertiary-color);
+}
+
+.homepage_firstSectionContainerRight{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_firstSectionContainerRight_image {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-left: 80px;
 }
 
 .homepage_secondSectionContainer {

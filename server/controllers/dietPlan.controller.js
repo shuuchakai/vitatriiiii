@@ -3,9 +3,10 @@ import OpenAI from 'openai';
 import User from '../models/user.model.js';
 import DietPlan from '../models/dietPlan.model.js';
 
+const apiKey1 = process.env.OPENAI_API_KEY || "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";
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: apiKey1,
 });
 
 

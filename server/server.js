@@ -6,17 +6,17 @@ import morgan from 'morgan';
 import cors from 'cors';
 import helmet from 'helmet';
 // import rateLimit from 'express-rate-limit';
+dotenv.config();
 
 import userRouter from './routes/user.router.js';
 import specificGoalRouter from './routes/specificGoal.router.js';
 import dietPlanRouter from './routes/dietPlan.router.js';
 
-dotenv.config();
 
 const app = express();
 
-const PORT = process.env.PORT || 5000;
-const MONGODB_URL = process.env.MONGODB_URL || "mongodb://mongo:cg45AHCgF31G4C44DadHG21bGBHeBGhE@roundhouse.proxy.rlwy.net:20744";
+const PORT = process.env.PORT;
+const MONGODB_URL = process.env.MONGODB_URL || "mongodb://mongo:SNZnqfUFMdtJkLXAmbRtcUIFLdPbAtkB@monorail.proxy.rlwy.net:40487";
 
 app.use(helmet());
 
